@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+   width: 80rem;
+   
+   max-width: 100%;
+   margin: 0 auto;
+   
+}
+
+
+
+
+header{
+ text-align: center;
+ width: 100%;
+ height: 100%;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+ul li{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+}
+.img{
+    margin: 1rem 0;
+    height: 15rem;
+    width: 100%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* main started here */
+main{
+    
+    margin: 0;
+}
+h1{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 10px;
+    margin: 0;
+}
+.item{
+  display: flex;
+  margin: 1rem 0;
+  padding: 20px;
+}
+.item-imng{
+  flex: 5;
+  
+}
+.item-imng img{
+    height: 150px;
+    width: 150px;
+}
+#first{
+  height: 500px;
+  width: 500px;
+}
+#second:focus #first{
+    height: 150px;
+    width: 150px;
+}
+.third{
+
+}
+.four{
+
+}
+.common{
+
+}
+.item-desc{
+    flex: 5;
+}
+.item-desc p{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.new-ul{
+    display: inline-block;
+    color: black;
+    background-color: white;
+    padding: 20px;
+}
+.new-ul li{
+    color: black;
+    list-style-type: disc;
+    text-align: left;
+    text-transform: capitalize;
+}
+.condition p{
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.description{
+    text-align: left;
+    
+}
+.section h1, h2, h3, h4, h5, h6{
+    background-color: black;
+    color: white;
+    padding:15px 20px ;
+    
+}
+.section .paragraph{
+    padding: 40px 25px;
+}
+.paragraph p{
+    font-size: 1.2rem;
+}
+/* main ended hree */
+
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  font-weight: bold;
+  font-size: large;
+  text-transform: capitalize;
+}
